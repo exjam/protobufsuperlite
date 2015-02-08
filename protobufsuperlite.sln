@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compiler", "compiler\compiler.vcxproj", "{1F64E5DC-C5A6-464E-8B2A-316440B0F3D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pbsl", "pbsl\pbsl.vcxproj", "{E95DBC9C-3047-41F2-9109-7FCC7252C652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{1F64E5DC-C5A6-464E-8B2A-316440B0F3D4}.Debug|Win32.Build.0 = Debug|Win32
 		{1F64E5DC-C5A6-464E-8B2A-316440B0F3D4}.Release|Win32.ActiveCfg = Release|Win32
 		{1F64E5DC-C5A6-464E-8B2A-316440B0F3D4}.Release|Win32.Build.0 = Release|Win32
+		{E95DBC9C-3047-41F2-9109-7FCC7252C652}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E95DBC9C-3047-41F2-9109-7FCC7252C652}.Debug|Win32.Build.0 = Debug|Win32
+		{E95DBC9C-3047-41F2-9109-7FCC7252C652}.Release|Win32.ActiveCfg = Release|Win32
+		{E95DBC9C-3047-41F2-9109-7FCC7252C652}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

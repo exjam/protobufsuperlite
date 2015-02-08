@@ -1,5 +1,6 @@
 #pragma once
 #include <cstddef>
+#include <stdint.h>
 
 namespace std
 {
@@ -7,16 +8,22 @@ namespace std
 class string_view
 {
 public:
-   using value_type = char;
+   using char_type = char;
 
 public:
-   string_view(value_type const *data, size_t size) :
+   string_view() :
+      mData(nullptr),
+      mSize(0)
+   {
+   }
+
+   string_view(const char_type *data, size_t size) :
       mData(data),
       mSize(size)
    {
    }
 
-   value_type const *data() const
+   char_type const *data() const
    {
       return mData;
    }
@@ -26,8 +33,18 @@ public:
       return mSize;
    }
 
+   std::string toString() const
+   {
+      return std::string(mData, mSize);
+   }
+
+   operator std::string() const
+   {
+      return toString();
+   }
+
 private:
-   value_type const *mData;
+   const char_type *mData;
    size_t mSize;
 };
 
