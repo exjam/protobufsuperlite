@@ -1,3 +1,6 @@
-[submodule "prslib"]
-	path = prslib
+[submodule "lib/string_view"]
+	path = lib/string_view
+	url = https://github.com/exjam/string_view.git
+[submodule "lib/prslib"]
+	path = lib/prslib
 	url = https://github.com/exjam/prslib.git

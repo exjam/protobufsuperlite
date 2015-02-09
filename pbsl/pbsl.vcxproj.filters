@@ -18,9 +18,6 @@
     <ClInclude Include="parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="string_view.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="declaration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
